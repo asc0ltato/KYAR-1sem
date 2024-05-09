@@ -1,0 +1,41 @@
+div{
+    text-align: center;
+    margin: 10px;
+}
+
+.n1:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+
+.n2:hover{
+    transform: rotate(45deg);
+    transition: 2s;
+}
+
+.n3:hover{
+    transform: translate(50px, 0px);
+    transition: 2s;
+}
+
+.n4:hover{
+    transform: skew(-20deg);
+    transition: 2s;
+}
+
+body{
+    background-color: rgb(233, 193, 245);
+}
+
+@keyframes zagolovok
+{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans Regular';
+    position: relative;
+    animation: zagolovok 3s linear infinite alternate}/*бесконечное повторения
+/* анимация воспроизводится от начала до конца, после чего плавно возвращается к исходному состоянию, что напоминает перемотку назад.

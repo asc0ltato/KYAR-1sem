@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(243, 220, 250);
+}
+
+textPath{
+    font-size: 36px;
+    fill: purple;
+    font-family: Arial;
+}
+
+.stop1 {
+    stop-color: green;
+}
+  
+.stop2 {
+    stop-color: orange;
+} 
+  
+#tri {
+    fill: url(#Gradient1);
+}
+
+polygon:hover {
+    stroke: purple;
+}

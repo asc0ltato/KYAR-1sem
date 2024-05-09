@@ -1,0 +1,26 @@
+*{
+    background:  #BDB76B 
+}
+
+h3 {
+    color: yellow
+}
+
+div > h2{
+    color:rgb(0, 250, 154)
+} 
+
+body h3 {
+    color: yellow;
+
+}
+
+.span_line {
+    text-decoration: line-through;
+}
+
+.juk {
+    color: rgb(216, 72, 197);
+    text-decoration: line-through;
+}
+

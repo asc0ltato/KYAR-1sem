@@ -1,0 +1,117 @@
+@import "../forVariables/variables";
+@import "../forMixins/mixins";
+
+//если у нас есть дефолтное значение высоты заголовка
+//и известно что высота имен в два раза меньше высоты заголовка
+
+$headFontSize: 50px;
+
+@function headSizeToNamesSize($n) {
+  @return ($n/2);
+}
+
+$namesFontSize: headSizeToNamesSize($headFontSize);
+
+//создать миксин который в зависимости
+// от высоты шрифта заголовка меняет его цвет
+// и цвет высоты имен на:
+// 1) более 60 px красный 2) от 50 до 59 желтый
+//менее 49 зеленый
+
+.mainContainer {
+  width: 95vw;
+  height: 95vh;
+  margin: 10px;
+  padding: 10px;
+  border: $pink solid 3px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+.logotip {
+    width: 10vw;
+    height: 10vh;
+    border: $pink 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imageOfLogotip {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .linksContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 77vw;
+    //padding: 20px;
+
+    a {
+      text-decoration: none;
+      color: $fuxia;
+      transition: 1s;
+      border: 2px solid $hotpink;
+      padding: 10px;
+      @include border(51px);
+
+      &:hover {
+        transform: scale(1.6);
+      }
+    }
+  }
+
+  .pageOneContainer {
+    border: 2px solid $orange;
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    grid-template-areas: "A1 A1 A1 A1 A1  A1 A2 A2 "
+                        "A3 A3 A4 A4 A5 A5 A6 A6";
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr;
+
+    .a1, .a2, .a3, .a4, .a5, .a6 {
+      @include flex;
+      @extend %blueBorder;
+    }
+
+    .a1 {
+      font-size: $headFontSize;
+    }
+
+    .a2 {
+      input {
+        border: 1px solid $green;
+      }
+    }
+
+    .a3, .a4, .a5, .a6 {
+      font-size: $namesFontSize;
+      @include dependingOnHeigth(65px) ;
+    }
+  }
+
+  .pageTwoContainer {
+    border: 2px solid $orange;
+    display: grid;
+    width: 100%;
+    grid-template-areas: "C1  C1 C1 C1 D1 F1"
+  "K1 K2 K3 K4 D2 F2";
+
+    .zagolovok2, .f1, .programmers2, .f2 {
+      @include flex;
+      @extend %orangeBorder;
+    }
+  }
+
+  .kontakts {
+    border: 3px solid $hotpink;
+    width: 100%;
+    @include flex;
+    font-size: 50px;
+  }
+}

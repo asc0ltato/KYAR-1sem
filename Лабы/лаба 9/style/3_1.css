@@ -1,0 +1,41 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+}
+
+.main {
+    display: grid;
+    grid-template-areas:"A1 A2 A2 A2 A2 A2"
+                        "A1 A3 A3 A3 A4 A4"
+                        "A1 A3 A3 A3 A4 A4"
+                        "A1 A3 A3 A3 A4 A4"
+                        "A1 A3 A3 A3 A4 A4"
+                        "A5 A5 A5 A5 A5 A5";
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    background-color: #f4deff;
+    border: black solid 2px;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#A1{
+    height: 412px;
+    padding-right: 35px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(173, 29, 79);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="people.xsl"?>
+
+<cd>
+    <people>
+        <name>Михаил</name>
+        <surname>Круг</surname>
+        <type>Певец</type>
+    </people>
+    <people>
+        <name>Алла</name>
+        <surname>Пугачева</surname>
+        <type>Певица</type>
+    </people>
+    <people>
+        <name>Жак</name>
+        <surname>Фреско</surname>
+        <type>Дизайнер</type>
+    </people>
+</cd> 

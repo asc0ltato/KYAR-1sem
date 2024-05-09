@@ -1,0 +1,73 @@
+img {
+    margin: 150px;
+    height: 300px;
+    position: absolute; /*устанавливает абсолютное позиционирование элемента с тегом img*/
+}
+       
+@keyframes animationNameA {
+    0% {transform: perspective(400px) rotateY(45deg);left: 0;}/*устанавливаем перспективу( расстояние между пользователем и плоскостью z )*/
+    50% {transform: perspective(400px) rotateY(0deg);left: 0;}
+    60% {transform: perspective(400px) rotateY(0deg);left: 0;}
+    100%{transform: perspective(400px) rotateY(0deg);left: 10%;}
+}
+    
+@keyframes animationNameB {
+    0% {transform: perspective(400px) rotateY(45deg);left: 100px;}
+    50% {transform: perspective(400px) rotateY(0deg);left: 100px;}
+    60% {transform: perspective(400px) rotateY(0deg);left: 100px;}
+    90% {transform: perspective(400px) rotateY(0deg);left: 25%;filter: blur(0);}
+    100%{transform: perspective(400px) rotateY(0deg);left: 25%;filter: blur(10px);}
+}
+    
+@keyframes animationNameC {
+    0% {transform: perspective(400px) rotateY(45deg);left: 200px;}
+    50% {transform: perspective(400px) rotateY(0deg);left: 200px;}
+    60% {transform: perspective(400px) rotateY(0deg);left: 200px;}
+    90% {transform: perspective(400px) rotateY(0deg);left: 40%;filter: grayscale(0);}/*преобразует цвета в черно-белые*/
+    100%{transform: perspective(400px) rotateY(0deg);filter: grayscale(1);left: 40%;}
+}
+    
+@keyframes animationNameD {
+    0% {transform: perspective(400px) rotateY(45deg);left: 300px;}
+    50% {transform: perspective(400px) rotateY(0deg);left: 300px;}
+    60% {transform: perspective(400px) rotateY(0deg);left: 300px;}
+    90% {transform: perspective(400px) rotateY(0deg);left: 55%;filter: invert(0);}
+    100%{transform: perspective(400px) rotateY(0deg);left: 55%;filter: invert(1);}/*invert изменяет цвета на противоположные; */
+}
+    
+    
+.A {
+    z-index: 1; /* расположение слоев,приоритетность зависит от цифры,чем меньше цифра , тем меньше приоритет , и тем ниже оно располагается*/
+    animation: animationNameA 5s linear; 
+    animation-fill-mode: forwards; /* по окончанию анимации элемент сохраняет стиль последнего ключевого кадра*/
+}
+    
+.B {
+    z-index: 2;
+    animation: animationNameB 5s linear;
+    animation-fill-mode: forwards;
+}
+    
+.C {
+    z-index: 3;
+    animation: animationNameC 5s linear;
+    animation-fill-mode: forwards;
+}
+    
+.D {
+    z-index: 4;
+    animation: animationNameD 5s linear;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes zagolovok{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}
+    
+h1{
+    text-align: center;
+    font-family:'Lucida Sans Regular';
+    position: relative;
+    animation: zagolovok 3s linear infinite alternate
+}

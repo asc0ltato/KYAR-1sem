@@ -1,0 +1,39 @@
+@import "../forTemplateSelectors/templateSelectors";
+@import "../forSCSS/11lab_sass.css";
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//создадим миксин который в зависимости
+// от высоты шрифта заголовка меняет его цвет
+// и цвет высоты имен на:
+// 1) более 60 px красный 
+// 2) от 50 до 59 желтый
+// 3)менее 49 зеленый
+
+@mixin dependingOnHeigth($font-size) {
+  @if($font-size<=50px) {
+  color:$green;
+  }
+  @if ($font-size>50px)and ($font-size<60px) {
+  color:$yellow;
+  }
+  @if($font-size>60px) {
+  color:$red;
+  } 
+}
+
+@mixin border($fontOfMainName) {
+  @if ( $fontOfMainName>20px) and ( $fontOfMainName<50px) {
+  border: $red 3px solid;
+  }
+  @if ( $fontOfMainName>50px) and ( $fontOfMainName<70px){
+  border: $fuxia 4px dashed;
+  }
+  @if ( $fontOfMainName>=0) and ($fontOfMainName<=20px) {
+    border : 5px dotted $blue;
+  }
+} 

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap");
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Regular.woff2") format("woff2"), url("Exo2-Regular.woff") format("woff");
+  font-weight: 1;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Thin.woff2") format("woff2"), url("Exo2-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-ThinItalic.woff2") format("woff2"), url("Exo2-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Italic.woff2") format("woff2"), url("Exo2-Italic.woff") format("woff");
+  font-weight: 1;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-ExtraLight.woff2") format("woff2"), url("Exo2-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-ExtraLightItalic.woff2") format("woff2"), url("Exo2-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Light.woff2") format("woff2"), url("Exo2-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-LightItalic.woff2") format("woff2"), url("Exo2-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Regular.woff2") format("woff2"), url("Exo2-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Italic.woff2") format("woff2"), url("Exo2-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Medium.woff2") format("woff2"), url("Exo2-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-MediumItalic.woff2") format("woff2"), url("Exo2-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-SemiBold.woff2") format("woff2"), url("Exo2-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-SemiBoldItalic.woff2") format("woff2"), url("Exo2-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Bold.woff2") format("woff2"), url("Exo2-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-BoldItalic.woff2") format("woff2"), url("Exo2-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-ExtraBold.woff2") format("woff2"), url("Exo2-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-ExtraBoldItalic.woff2") format("woff2"), url("Exo2-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-Black.woff2") format("woff2"), url("Exo2-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo 2";
+  src: url("Exo2-BlackItalic.woff2") format("woff2"), url("Exo2-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Regular.woff2") format("woff2"), url("Comfortaa-Regular.woff") format("woff");
+  font-weight: 1;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Light.woff2") format("woff2"), url("Comfortaa-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Regular.woff2") format("woff2"), url("Comfortaa-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Medium.woff2") format("woff2"), url("Comfortaa-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-SemiBold.woff2") format("woff2"), url("Comfortaa-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Bold.woff2") format("woff2") url("Comfortaa-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: local("Caveat Regular"), local("Caveat-Regular"), url("Caveatregular.woff2") format("woff2"), url("Caveatregular.woff") format("woff"), url("Caveatregular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: local("Caveat Bold"), local("Caveat-Bold"), url("Caveatbold.woff2") format("woff2"), url("Caveatbold.woff") format("woff"), url("Caveatbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #dec0eb;
+}
+
+p {
+  font-family: "Comfortaa";
+  text-indent: 25px;
+  text-align: justify;
+  line-height: 200%;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 45px;
+  color: #EBEEF2;
+  background-color: hsla(275, 100%, 10%, 1);
+}
+
+.text__banana {
+  font-family: "Caveat";
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin: 0;
+  text-transform: capitalize;
+  font-variant: small-caps;
+}
+
+.second__text {
+  font-family: "Exo 2";
+  margin: 0.2em 0em 1.2em 0em;
+  text-align: left;
+  text-indent: 25px;
+}
+
+.bananas__list {
+  margin-bottom: 0px;
+  text-indent: 25px;
+  font-family: "Exo 2";
+  text-align: left;
+}
+
+.list {
+  list-style: upper-roman;
+  margin: 0;
+  font-family: "Comfortaa";
+  font-size: 20px;
+}
+
+li::marker {
+  color: #002a73;
+}

@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 7px outset rgb(140, 56, 163);
+  }
+  
+td{
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.stroka {
+    background-color: rgb(197, 135, 222);
+}
+
+h3{
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.nav>ul>li { /*1 шаг для элемента списка*/
+    width:200px;
+    position: relative;
+}
+
+nav ul {/*2 шаг для выпадающего меню*/
+    position:absolute;
+}
+
+.nav li a { /*меню*/
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    background: yellow;
+    border: 1px solid black;
+    color: black;
+}
+   
+.nav li .second a{/*выпадающий*/
+    background: rgb(250, 163, 139);
+    border: 1px dashed black;
+    color: black;
+}
+   
+.nav li .second {
+    display: none;/*скрыть список*/ 
+}
+    
+.nav li:hover .second{ /*при наведении меню появляется*/
+    display: block;
+}
+    
+.nav li { /*для шахматной доски*/
+    width:100px;
+}
+

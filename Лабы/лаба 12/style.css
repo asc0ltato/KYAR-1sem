@@ -1,0 +1,34 @@
+account {
+    background-color: rgb(228, 177, 232);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+surname {
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:10px 20px 0px 20px;
+    margin-top:12pt;
+    font-size:15pt;
+    padding: 10px;
+    background-color: rgb(201, 190, 255);
+}
+
+email, name, date_of_birth, city {
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+}
+
+telephone, patronymic, country {
+    display: block;
+    border: 2px solid black;
+    text-align:center;
+    margin:1px 20px 0px 20px;
+    font-size:15pt;
+    padding: 10px;
+    background-color: rgb(201, 190, 255);
+}

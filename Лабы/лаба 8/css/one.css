@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(194, 215, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:rgb(168, 134, 221)
+}
+
+aside {
+    width: 200px;
+    float: right;
+}
+
+article {
+    line-height: 11px;/*межстрочный интервал*/
+}
+
+ul.nav1 {
+    list-style-type: none; /*удаление маркеров списка*/
+}
+
+ul.nav1 a { /*Преобразовать элемент а в блочной элемент, так как он является строчным элементом.*/
+    display: block;/*Это позволяет для ссылок определить границы, отступы, поля*/
+    padding-bottom: 30px;
+}
+
+.nav1{
+    height: 200x;
+    width: 110px;
+    background-color: rgb(246, 216, 249);
+    padding-top: 25px;
+    padding-left: 55px;
+    border: 5px outset rgb(126, 133, 198);
+}
+    
+.nav1 a.link1:link {
+    color: red;
+    text-decoration: none;
+}
+
+.nav1 a.link2:visited {
+    color: #8B0000;
+}
+
+.nav1 a.link3:hover {
+    color: green;
+}
+
+.nav1 a.link4:active {
+    color: rgb(184,134,11);
+}

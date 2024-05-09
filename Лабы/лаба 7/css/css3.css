@@ -1,0 +1,49 @@
+button{
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+}
+
+#btn1:hover{
+   background-color: black;
+   color:white;
+}
+
+#btn2:hover{
+    border:2px solid red ;
+    outline: 2px solid yellow;
+}
+
+#btn3:hover{
+    border-top:green 2px solid;
+    border-bottom:green 2px solid;
+    border-left:none ;
+    border-right: none ;
+    background: transparent; /*прозрачность*/
+}
+
+#btn4:hover{
+    border-top:none;
+    border-bottom:none;
+    border-left:  blue 2px solid ;
+    border-right:  blue 2px solid;
+    background: transparent;
+}
+
+#btn5:hover{
+    background: radial-gradient(yellow 3px, fuchsia 22px,blue,transparent), linear-gradient(to bottom,lightblue,lightblue);
+    border:none;
+}
+
+@keyframes zagolovok
+{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans Regular';
+    position: relative;
+    animation: zagolovok 3s linear infinite alternate
+}

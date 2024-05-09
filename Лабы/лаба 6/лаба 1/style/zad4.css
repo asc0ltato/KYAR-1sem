@@ -1,0 +1,45 @@
+div {
+    display: inline-block;
+}
+
+.n1 {
+    border: 3px solid black;
+    background-image: linear-gradient(to bottom, rgb(0, 47, 255), rgb(164, 60, 190), rgb(194, 51, 51));
+    padding: 60px;
+    margin: 10px;
+}
+
+.n2 {
+    border: 3px solid black;
+    background-image: repeating-linear-gradient(45deg, #ff0000, #ff0000 10px, #0026ff 10px, #0026ff 20px);
+    padding: 60px;
+    margin: 10px;
+}
+
+.n3 {
+    border: 3px solid black;
+    padding: 60px;
+    margin: 10px;
+    background-image: radial-gradient(rgb(223, 248, 0), rgb(4, 129, 0));
+}
+
+.n4 {
+    border: 3px solid black;
+    padding: 60px;
+    margin: 10px;
+    background: repeating-radial-gradient(circle, #217a15, #217a15 9px, #ffe600 9px, #ffe600 16px);
+}
+
+.n5 {
+    border: 3px solid black;
+    padding: 60px;
+    margin: 10px;
+    background-image: radial-gradient(circle, rgb(223, 248, 0) 20px, rgb(4, 112, 0) 50px, transparent 80px), linear-gradient(180deg, blue, rgb(170, 17, 150));
+}
+
+.n6 {
+    border: 3px solid black;
+    padding: 60px;
+    margin: 10px;
+    background-image: linear-gradient(to right, yellow 20px, green 60px, transparent 95px), linear-gradient(180deg, black 05%, green 20%, white 70%, blue, rgb(146, 0, 102) 90%);
+}

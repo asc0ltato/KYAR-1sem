@@ -1,0 +1,89 @@
+body{
+    background-color: bisque;
+}
+div{
+    text-align: center;
+    margin: 100px;
+    position: relative;
+}
+
+@keyframes for_photo1
+{
+    from{left: -100px;}
+    to{left: 100px;}
+}
+
+@keyframes for_photo2
+{
+    0%{left:-500px;transform: scale(1);}
+    50%{left: 0px;transform: scale(1.2);}
+    100%{left: 500px;transform: scale(1);}
+}
+
+@keyframes for_photo3
+{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+    0% { left: -500px; }
+    25% { left: -100px; }
+    50% { left: 300px; }
+    75% { left: 700px; }
+    100% { left: 1100px; } 
+}
+
+@keyframes for_photo4
+{
+    from{top: -100px;}
+    to{top: -50px;}
+}
+
+@keyframes for_photo5
+{
+    0% { left: -50px; top: 0; }
+    25% { left: 50px; top: 0; }
+    50% { left: 50px; top: 100px; }
+    75% { left: -50px; top: 100px; }
+    100% { left: -50px; top: 0; }
+
+}
+
+    .n1
+    {
+        position: relative;
+        animation: for_photo1 3s linear infinite normal;
+    }
+
+    .n2{
+        position: relative;
+        animation: for_photo2 3s linear infinite normal;
+        transform:  skew(30deg);
+    }
+
+    .n3{
+        position: relative;
+        animation: for_photo3 3s linear infinite normal;
+    }
+
+    .n4{
+        position: relative; /*устанавливает позиционирование элемента с классом n4*/
+        animation: for_photo4 3s linear infinite normal;
+    }
+    
+    .n5{
+        position: relative;
+        animation: for_photo5 3s linear infinite normal;
+    }
+
+
+    @keyframes zagolovok {
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans Regular';
+    position: relative;
+    animation: zagolovok 3s linear infinite alternate
+}

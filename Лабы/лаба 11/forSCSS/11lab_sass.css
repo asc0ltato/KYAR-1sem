@@ -1,0 +1,94 @@
+@import "../forSCSS/11lab_sass.css";
+.mainContainer .pageTwoContainer .zagolovok2, .mainContainer .pageTwoContainer .f1, .mainContainer .pageTwoContainer .programmers2, .mainContainer .pageTwoContainer .f2 {
+  border: #F81894 solid 2px;
+  margin: 20px;
+}
+
+.mainContainer .pageOneContainer .a1, .mainContainer .pageOneContainer .a2, .mainContainer .pageOneContainer .a3, .mainContainer .pageOneContainer .a4, .mainContainer .pageOneContainer .a5, .mainContainer .pageOneContainer .a6 {
+  border: #FF00FF solid 2px;
+  margin: 20px;
+}
+
+.mainContainer {
+  width: 95vw;
+  height: 95vh;
+  margin: 10px;
+  padding: 10px;
+  border: #c04696 solid 3px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.mainContainer .logotip {
+  width: 10vw;
+  height: 10vh;
+  border: #c04696 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .logotip .imageOfLogotip {
+  height: 100%;
+  width: auto;
+}
+.mainContainer .linksContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 77vw;
+}
+.mainContainer .linksContainer a {
+  text-decoration: none;
+  color: #FF00FF;
+  transition: 1s;
+  border: 2px solid #F81894;
+  padding: 10px;
+  border: #FF00FF 4px dashed;
+}
+.mainContainer .linksContainer a:hover {
+  transform: scale(1.6);
+}
+.mainContainer .pageOneContainer {
+  border: 2px solid #e55710;
+  display: grid;
+  width: 100%;
+  height: 30vh;
+  grid-template-areas: "A1 A1 A1 A1 A1  A1 A2 A2 " "A3 A3 A4 A4 A5 A5 A6 A6";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 1fr;
+}
+.mainContainer .pageOneContainer .a1, .mainContainer .pageOneContainer .a2, .mainContainer .pageOneContainer .a3, .mainContainer .pageOneContainer .a4, .mainContainer .pageOneContainer .a5, .mainContainer .pageOneContainer .a6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .pageOneContainer .a1 {
+  font-size: 50px;
+}
+.mainContainer .pageOneContainer .a2 input {
+  border: 1px solid #a3de13;
+}
+.mainContainer .pageOneContainer .a3, .mainContainer .pageOneContainer .a4, .mainContainer .pageOneContainer .a5, .mainContainer .pageOneContainer .a6 {
+  font-size: 25px;
+  color: #e10707;
+}
+.mainContainer .pageTwoContainer {
+  border: 2px solid #e55710;
+  display: grid;
+  width: 100%;
+  grid-template-areas: "C1  C1 C1 C1 D1 F1" "K1 K2 K3 K4 D2 F2";
+}
+.mainContainer .pageTwoContainer .zagolovok2, .mainContainer .pageTwoContainer .f1, .mainContainer .pageTwoContainer .programmers2, .mainContainer .pageTwoContainer .f2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .kontakts {
+  border: 3px solid #F81894;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}/*# sourceMappingURL=11lab_sass.css.map */

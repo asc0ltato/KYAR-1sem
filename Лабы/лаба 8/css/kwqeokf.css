@@ -1,0 +1,53 @@
+* {
+  color: #1c1c1c;
+}
+
+nav ul {
+  list-style: none; /*убрать маркеры */
+  margin: 0; /*убрать отступы */
+  padding: 0;
+}
+
+.topmenu > li {/*выпадающее меню 1 шаг */
+  display: inline-block;
+  position: relative;
+}
+
+.topmenu > li > a {
+  padding: 7px 20px;/*меню */
+  text-align: center;/*меню по середине */
+}
+
+.submenu {   /*выпадающего меню 2 шаг */
+  position: absolute;
+  left: -1px;
+  width: 200px;
+  visibility: hidden;/*скрытие выпадающего меню*/
+}
+
+nav li:hover > .submenu {
+  visibility: visible;/*отображение выпадающего меню*/
+  opacity: 1;
+}
+
+.nav a {/*свойства горизонтальной панели навигаций */
+  display: inline-block; /*для плавающих элементов значение block*/
+  border: 1px solid black;
+  text-decoration: none;
+  width: 200px;
+  height: 15px;
+}
+
+.nav .submenu a{ /*Для выпадающего меню */
+  margin: 0;
+  padding: 10px;
+  width: 220px;
+  border: 1px solid black;
+  text-align: center;
+  background-image: none;
+}
+
+.nav li a {background: url(../img/facultet.png) no-repeat 0 0;}
+.nav .active:hover {background-position: 0 -30px;}
+.nav .n3:hover {background-position: 0 -90px;}
+.nav .n4:hover {background-position: 0 -60px;} 

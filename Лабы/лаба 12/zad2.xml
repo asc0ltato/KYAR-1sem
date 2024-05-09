@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE account [
+<!ELEMENT account (surname, name, patronymic, date_of_birth, country, city, telephone, email)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT patronymic (#PCDATA)>
+<!ELEMENT date_of_birth (#PCDATA)>
+<!ENTITY publisher "Minsk"> 
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT photos (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<account>
+    <surname>Жук</surname>
+    <name>Светлана</name>
+    <patronymic>Сергеевна</patronymic>
+    <date_of_birth>20.10.2004</date_of_birth>
+    <country>Belarus</country>
+    <city>&publisher;</city>
+    <telephone> +375259265072</telephone>
+    <email>superpando4ka@gmail.com</email>
+</account>

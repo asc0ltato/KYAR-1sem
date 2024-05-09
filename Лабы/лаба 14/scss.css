@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+  background-color: MistyRose;
+}
+
+body::before {
+  font-family: "Monotype Corsiva";
+  src: url("../шрифты/monotype-corsiva.woff") format("woff"), url("../шрифты/monotype-corsiva.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: purple;
+}
+
+span {
+  color: purple;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name__page {
+  text-align: center;
+  font-size: 40px;
+}
+
+.second__name__page {
+  text-align: left;
+  font-size: 32px;
+}
+
+.third__name__page {
+  color: red;
+}
+
+ol li .first__li {
+  color: red;
+  font-size: 18pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ol li .second_li {
+  color: yellow;
+  font-size: 20pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ol li .third_li {
+  color: green;
+  font-size: 22pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td, table tr, table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: pink;
+  padding: 5px;
+}/*# sourceMappingURL=scss.css.map */

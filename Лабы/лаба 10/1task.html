@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="css/1task.css">
+    <link href="css/green.css" rel="stylesheet" media="(min-width: 1280px)">
+    <style>
+        @import url("css/blue.css") (min-width: 768px) and (max-width: 1280px);
+        @media (min-width: 480px) and (max-width: 768px) {
+            p {
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="div1">Flex-box верстка<span>&#8801</span></div>
+</header>
+<div class="container">
+    <div class="div2">
+        <iframe src="videos/1.mp4" autoplay></iframe>
+        <iframe src="videos/2.mp4" autoplay></iframe>
+        <iframe src="videos/3.mp4" autoplay></iframe>
+    </div>
+    <div class="div3"> Flexbox-верстка—разметка макетов веб-страниц, которая
+        позволяет автоматически настраивать ширину элементов,
+        находящихся внутри flex-контейнера. Для применения данного
+        способа разметки следует учитывать разделение применяемых
+        свойств на свойства flex-контейнера и свойства flex-элемента.
+        С помощью display: flex; осуществляется преобразование
+        HTML-элемента в flex-контейнер, а элементы находящийся внутри
+        него в flex-элементы. По умолчанию flex-элементы помещаются
+        друг за другом в одной строке. Свойство flex-flow позволяет
+        выбрать направление отображения элементов в контейнере, а
+        также указать их перенос на следующую строку. Первое значение
+        определяет направление, а второе перенос на следующую строку.
+        Свойство flex-flow является сокращенной записью и содержит
+        значения свойств flex-direction и flex-wrap. Flex-элементы могут
+        размещаться в строке (значение row) или в колонке (значение column).
+        Перенос элементов осуществляется с помощью значения wrap.
+        Свойство justify-content определяет способ выключки flex-
+        элементов в строке.
+    </div>
+    <div class="div4">
+        <label style=" display: flex;justify-content: center;color:rebeccapurple"> Барбисайз - дора, Мейби Бейби </label>
+        <audio controls="controls" src="audios/dora_-_barbisayz.mp3">
+        </audio>
+        <label style=" display: flex;justify-content: center;color:cornflowerblue">Аскорбинка - Мейби Бейби</label>
+        <audio controls="controls" src="audios/meybi-beybi_-_askorbinka.mp3">
+        </audio>
+        <label style="display: flex;justify-content: center;color:darkorange">Бутылочка - Мейби Бейби</label>
+        <audio controls="controls" src="audios/meybi-beybi_-_butylochka.mp3">
+        </audio>
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="imgs/1.jpg">
+        <p> сердечко кот</p>
+    </div>
+    <div class="column">
+        <img src="imgs/2.jpg">
+        <p>подмигивает</p>
+    </div>
+    <div class="column">
+        <img src="imgs/3.jpg">
+        <p>я дурачок</p>
+    </div>
+    <div class="column">
+        <img src="imgs/4.jpg">
+        <p> малышка</p>
+    </div>
+
+</div>
+<div class="row">
+    <div class="column">
+        <img src="imgs/5.jpg">
+        <p> стоит кентик</p>
+    </div>
+    <div class="column">
+        <img src="imgs/6.jpg">
+        <p> вылупился</p>
+    </div>
+    <div class="column">
+        <img src="imgs/7.jpg">
+        <p> высмотрел</p>
+    </div>
+    <div class="column">
+        <img src="imgs/8.jpg">
+        <p> мишка</p>
+    </div>
+</div>
+</body>
+</html>

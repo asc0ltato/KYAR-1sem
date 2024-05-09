@@ -1,0 +1,56 @@
+table {
+    margin-left: 450px;
+    margin-top: 25px;
+    width: 600px;
+    height: 200px;
+    border-spacing: 0;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #000000;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000000;
+}
+
+.chess th {
+    padding: .3em; 
+}
+
+.chess td {
+    border: 1px solid; 
+    width: 4em;
+    height: 4em;
+}
+
+.chess th {
+    border: 1px solid;
+}
+
+.mimi{
+    background-color: rgb(212, 175, 241);
+}
+
+.chess .block1 {
+    color: white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;   
+}
+
+.chess .block2 {
+    color: white;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;    
+}
+.chess .block3 {
+    color: white;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.chess .block4 {
+    color: white;
+    border-left : 1px solid black;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="att.xsl"?>
+<catalog>
+<cd>
+    <name>Olya</name>
+    <mark>9</mark>
+</cd>
+
+<cd>
+    <name>Kate</name>
+    <mark>2</mark>
+</cd>
+
+<cd>
+    <name>Natasha</name>
+    <mark>5</mark>
+</cd>
+
+<cd>
+    <name>Tanya</name>
+    <mark>6</mark>
+</cd>
+
+<cd>
+    <name>Vika</name>
+    <mark>2</mark>
+</cd>
+
+</catalog>

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url("../шрифты/monotype-corsiva.woff") format("woff"), url("../шрифты/monotype-corsiva.woff2") format("woff2"); 
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monotype Corsiva";
+    color: purple;
+}
+
+span {
+    color:  rgb(110, 3, 168);
+ }
+
+ p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.name__page {
+    text-align: center;
+    font-size: 40px;
+    }
+
+.second__name__page{
+    text-align: left;
+    font-size: 32px;
+}
+
+.third__name__page {
+    color: red;
+}
+
+
+.list {
+    list-style:decimal;
+}
+
+.first__li {
+    color: red;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second_li{
+    color:yellow;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.third_li{
+    color:green;
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 + p {
+    background-color: yellow;
+  }
+  
+  h2 ~ p {
+    color: blue;
+  }
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, tr, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+.first__col {
+    background-color: lightgoldenrodyellow;
+}
+
+.first__row {
+    background-color: lightgray;
+}
+
+.footer__table {
+    background-color: lightpink;
+    text-align: center;
+}

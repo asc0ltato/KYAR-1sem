@@ -1,0 +1,15 @@
+figure {
+    background: #f6e0f8;
+    display: block;
+    float: left;
+    /* Блоки выстраиваются по горизонтали */
+    text-align: center;
+    padding: 20px;
+    border: 2px ridge blueviolet;
+    margin: 35px;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
